@@ -1,0 +1,51 @@
+1  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    2  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    3  yum install epel-release
+    4  sudo amazon-linux-extras install epel
+    5  amazon-linux-extras install java-openjdk11
+    6  java --version
+    7  yum install jenkins
+    8  jenkins --version
+    9  whereis jenkins
+   10  systemctl start jenkins
+   11  systemctl enable jenkins
+   12  systemctl status jenkins
+   13  cat /var/lib/jenkins/secrets/initialAdminPassword
+   14  /var/lib/jenkins/secrets/initialAdminPassword
+   15  cat /var/lib/jenkins/secrets/initialAdminPassword
+   16  cd /tmp/
+   17  ls
+   18  vi testscript.sh
+   19  cat testscript.sh
+   20  ls -lrt
+   21  chmod 755 testscript.sh
+   22  ls -lrt
+   23  ./testscript.sh
+   24  vi testscript.sh
+   25  ./testscript.sh
+   26  ./testscript.sh Aaqib 29
+   27  vi testscript.sh
+   28  ./testscript.sh Aaqib 29
+   29  pwd
+   30  yum install git -y
+   31  git --version
+   32  systemctl start git
+   33  systemctl status git
+   34  sudo yum install maven
+   35  mvn --version
+   36  java --version
+   37  cd /usr/lib/jvm
+   38  ls
+   39  cd java-1.8.0-openjdk-1.8.0.312.b07-1.amzn2.0.2.x86_64
+   40  ls
+   41  pwd
+   42  cd
+   43  cd /usr/share/maven-repo/org/apache/maven/
+   44  whereis maven
+   45  cd /usr/share/maven
+   46  ls
+   47  cd ..
+   48  ls
+   49  mvn --version
+   50  pwd
+   51  history
